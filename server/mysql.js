@@ -2,10 +2,10 @@ var mysql=require("mysql");
 
 // 创建连接池
 var pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'test1',
+    host: '199.45.163.40',
+    user: 'test',
+    password: 'test',
+    database: 'test',
     port: 3306
 });
 
